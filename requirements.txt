@@ -1,0 +1,25 @@
+# Business Admin Dashboard - Production Requirements
+# Django and Core Dependencies
+Django>=4.2,<5.0
+djangorestframework>=3.14.0
+django-cors-headers>=4.0.0
+python-decouple>=3.6
+psycopg2-binary>=2.9.6
+
+# Authentication & Security
+PyJWT>=2.7.0
+django-ratelimit>=4.0.0
+
+# API Documentation
+drf-spectacular>=0.26.0
+
+# Utilities
+python-dateutil>=2.8.2
+openpyxl>=3.1.2
+
+# Development Dependencies (remove in production)
+pytest>=7.4.0
+pytest-django>=4.5.2
+black>=23.7.0
+flake8>=6.0.0
+pre-commit>=3.4.0
